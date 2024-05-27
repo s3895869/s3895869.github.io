@@ -1,0 +1,21 @@
+img { /* this selects all image (img) elements */
+    width: 100%;
+  }
+#profile {
+    max-width: 800px;
+    margin: auto;
+}
+  main {
+    display: grid;  /* sets the display to grid on the surrounding div */
+    grid-template-columns: 50% 50%;  /* sets each column to 50% */
+  }
+#bio-note {
+    grid-column: 1;  /* sets which column the text appears in */
+    grid-row: 1;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+#profile-image {
+    grid-column: 2;  /* sets which column the image appears in */
+    grid-row: 1;
+  }
