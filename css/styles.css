@@ -19,3 +19,8 @@ img { /* this selects all image (img) elements */
     grid-column: 2;  /* sets which column the image appears in */
     grid-row: 1;
   }
+  body {
+    color: white;
+    background-color: rgb(70, 193, 209);
+    font-family: 'Palette Mosaic', cursive;  /* an example font that must match the Google font you have imported into your HTML */
+  }
